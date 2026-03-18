@@ -81,9 +81,9 @@ Member Dashboard
 
 **Admin Panel-**
 
- Email : amankumawat@gmail.com
+ Email : nishantkumawat1f9@gmail.com
  
- Password : amankumawat
+ Password : nishantkumawat
 
 
 **Trainer Panel-**

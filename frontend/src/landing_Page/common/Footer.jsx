@@ -41,16 +41,16 @@ const Footer = () => {
         <div className="footer-col gym-detail">
           <h4>Contact</h4>
           <p>
-            Email: <a href="mailto:amankumawat4507@gmail.com">amankumawat4507@gmail.com</a> 
+            Email: <a href="mailto:nishantkumawat1f9@gmail.com">nishantkumawat1f9@gmail.com</a> 
             </p>
           <p>
-            Phone: <a href="tel:+919079720440"> +91 9079720440 </a>
+            Phone: <a href="tel:+9057209702"> +91 9057209702 </a>
             </p>
 
           <div className="socials">
-            <a href="https://www.instagram.com/amankmwt_06/?next=%2F&hl=en" target="_blank" rel="noopener noreferrer"><span><FaInstagram /></span></a>
-            <a href="https://x.com/amankumawatt67" target="_blank" rel="noopener noreferrer"><span><FaTwitter /></span></a>
-            <a href="https://youtube.com"target="_blank" rel="noopener noreferrer"><span><FaYoutube /></span></a>
+            <a href="https://www.instagram.com/nishantkumawatt/?next=%2F&hl=en" target="_blank" rel="noopener noreferrer"><span><FaInstagram /></span></a>
+            <a href="https://x.com/alex07ooo" target="_blank" rel="noopener noreferrer"><span><FaTwitter /></span></a>
+            <a href="https://www.youtube.com/@nishantkumawat6179"target="_blank" rel="noopener noreferrer"><span><FaYoutube /></span></a>
           </div>
         </div>
 

@@ -7,7 +7,7 @@
     "dev": "nodemon api/index.js"
   },
   "keywords": [],
-  "author": "Aman kumawat",
+  "author": "Nishant Kumawat",
   "license": "ISC",
   "description": "",
   "dependencies": {
@@ -19,5 +19,8 @@
     "jsonwebtoken": "^9.0.3",
     "mongoose": "^9.1.5",
     "razorpay": "^2.9.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
   }
 }
