@@ -17,7 +17,7 @@ const Hero = () => {
 
     try {
       const { data } = await axios.post(
-        "https://fitness-application-three.vercel.app/api/payment/create-order",
+        "http://localhost:8080/api/payment/create-order",
         {
           planName: plan
         }

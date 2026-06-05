@@ -11,7 +11,7 @@ const MemberPlans = () => {
 
   useEffect(() => {
     axios
-      .get("https://fitness-application-three.vercel.app/api/member/plans", {
+      .get("http://localhost:8080/api/member/plans", {
         headers: {
           Authorization: `Bearer ${token}`,
         },
@@ -32,9 +32,8 @@ const MemberPlans = () => {
     }
 
     try {
-      let res = await axios
-        .post(
-          "https://fitness-application-three.vercel.app/api/member/select-plan",
+      let res = await axios.post(
+          "http://localhost:8080/api/member/select-plan",
           { planId },
           {
             headers: {

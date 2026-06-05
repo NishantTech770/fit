@@ -38,7 +38,7 @@ const TermsConditions = () => {
         <section className="page-section">
           <h2>Contact Us</h2>
           <div>
-            <p>Email: amankumawat4507@gmail.com</p>
+            <p>Email: nishantkumawat1f9@gmail.com</p>
           </div>
         </section>
       </div>
