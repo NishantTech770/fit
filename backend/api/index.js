@@ -16,7 +16,7 @@ app.use(express.urlencoded({extended:true}))
 app.use(express.json())
 app.use(cors({
     origin: [
-         "https://fit-tawny.vercel.app/"
+         "https://fit-tawny.vercel.app"
     ],
     credentials:true,
 }))
