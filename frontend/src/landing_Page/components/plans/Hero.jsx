@@ -17,7 +17,7 @@ const Hero = () => {
 
     try {
       const { data } = await axios.post(
-        "http://localhost:8080/api/payment/create-order",
+        "https://fit-i5h1.onrender.com/api/payment/create-order",
         {
           planName: plan
         }

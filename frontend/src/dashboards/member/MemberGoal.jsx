@@ -10,7 +10,7 @@ const MemberGoal = () => {
   const setGoal = async (goal) => {
     try {
       let res = await axios.post(
-        "http://localhost:8080/api/member/set-goal",
+        "https://fit-i5h1.onrender.com/api/member/set-goal",
         { goal },
         {
           headers: {

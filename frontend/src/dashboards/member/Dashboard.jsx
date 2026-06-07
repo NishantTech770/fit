@@ -112,7 +112,7 @@ const Dashboard = () => {
   useEffect(() => {
     const getSelectedPlan = async () => {
       await axios
-        .get("http://localhost:8080/api/member/selected-goal", {
+        .get("https://fit-i5h1.onrender.com/api/member/selected-goal", {
           headers: {
             Authorization: `Bearer ${token}`,
           },

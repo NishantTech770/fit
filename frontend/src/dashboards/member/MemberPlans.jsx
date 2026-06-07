@@ -11,7 +11,7 @@ const MemberPlans = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:8080/api/member/plans", {
+      .get("https://fit-i5h1.onrender.com/api/member/plans", {
         headers: {
           Authorization: `Bearer ${token}`,
         },
@@ -33,7 +33,7 @@ const MemberPlans = () => {
 
     try {
       let res = await axios.post(
-          "http://localhost:8080/api/member/select-plan",
+          "https://fit-i5h1.onrender.com/api/member/select-plan",
           { planId },
           {
             headers: {

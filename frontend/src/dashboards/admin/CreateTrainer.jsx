@@ -33,7 +33,7 @@ const CreateTrainer = () => {
     e.preventDefault()
     try{
       let token = localStorage.getItem("token")
-      let res = await axios.post("http://localhost:8080/api/admin/create-trainer", formData,
+      let res = await axios.post("https://fit-i5h1.onrender.com/api/admin/create-trainer", formData,
         {
           headers:{
             Authorization:`Bearer ${token}`

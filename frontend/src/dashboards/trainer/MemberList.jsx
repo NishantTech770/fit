@@ -8,7 +8,7 @@ const MembersList = () => {
   let token = localStorage.getItem("token");
   useEffect(() => {
     axios
-      .get("http://localhost:8080/api/tariner/members", {
+      .get("https://fit-i5h1.onrender.com/api/tariner/members", {
         headers: {
           Authorization: `Bearer ${token}`,
         },
